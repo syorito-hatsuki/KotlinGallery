@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/bottomMenuGallery">
+    <fragment
+        android:id="@+id/bottomMenuGallery"
+        android:name="dev.fstudio.kotlingallery.ui.fragments.gallery.view.ItemsFragment"
+        tools:layout="@layout/fragment_items"
+        android:label="Gallery" />
+
+    <fragment
+        android:id="@+id/bottomMenuNasa"
+        android:name="dev.fstudio.kotlingallery.ui.fragments.nasa.view.ApodFragment"
+        tools:layout="@layout/fragment_items"
+        android:label="Nasa" />
+</navigation>
