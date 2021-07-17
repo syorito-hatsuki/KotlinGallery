@@ -18,7 +18,7 @@
         android:theme="@style/Theme.KotlinGallery"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".ui.activities.main.view.MainActivity"
+            android:name=".ui.activity.main.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

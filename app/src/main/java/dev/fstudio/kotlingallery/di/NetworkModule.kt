@@ -3,7 +3,7 @@ package dev.fstudio.kotlingallery.di
 import android.content.Context
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import com.readystatesoftware.chuck.ChuckInterceptor
-import dev.fstudio.kotlingallery.ui.fragments.nasa.impl.ApodAPI
+import dev.fstudio.kotlingallery.ui.fragment.nasa.impl.ApodAPI
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.Cache
